@@ -1,14 +1,16 @@
 public class Main {
     public static void main(String[] args) {
 
-        int passengers = 75;
+        int one = 5;
+        int two = 10;
+        int three = 7;
 
-        if (passengers < 60) {
-            System.out.println("Есть сидячие места");
-        } else if (passengers < 102) {
-            System.out.println("Есть стоячие места");
+        if (one >= two && one >= three) {
+            System.out.println("Наибольшее число: " + one);
+        } else if (two >= one && two >= three) {
+            System.out.println("Наибольшее число: " + two);
         } else {
-            System.out.println("Вагон полностью забит");
+            System.out.println("Наибольшее число: " + three);
         }}}
 
 
