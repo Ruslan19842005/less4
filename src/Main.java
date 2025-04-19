@@ -1,19 +1,14 @@
 public class Main {
     public static void main(String[] args) {
 
-        int age = 10;
-        boolean hasAdult = true;
+        int passengers = 75;
 
-        if (age < 5) {
-            System.out.println("Если возраст ребенка равен " + age + ", то ему нельзя кататься на аттракционе");
-        } else if (age < 14) {
-            if (hasAdult) {
-                System.out.println("Если возраст ребенка равен " + age + ", то ему можно кататься на аттракционе в сопровождении взрослого");
-            } else {
-                System.out.println("Если возраст ребенка равен " + age + ", то ему нельзя кататься на аттракционе");
-            }
+        if (passengers < 60) {
+            System.out.println("Есть сидячие места");
+        } else if (passengers < 102) {
+            System.out.println("Есть стоячие места");
         } else {
-            System.out.println("Если возраст ребенка равен " + age + ", то ему можно кататься на аттракционе без сопровождения взрослого");
+            System.out.println("Вагон полностью забит");
         }}}
 
 
